@@ -3,7 +3,7 @@ using System.IO;
 using System.Net.Mail;
 using System.Reflection;
 
-namespace Pujante.GestionPlanta.PickingApp.Helpers
+namespace ProyectoEmail
 {
     public class Email
     { 
