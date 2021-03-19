@@ -19,7 +19,7 @@ namespace ProyectoEmail
                 body = reader.ReadToEnd();
             }
 
-            body = body.Replace("{UserName}", System.Environment.UserName);
+            body = body.Replace("{UserName}", usuario);
             body = body.Replace("{message}", mensaje);
 
             SendEmail("ASUNTO DEL EMAIL", body);
